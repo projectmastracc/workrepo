@@ -1,0 +1,11 @@
+{
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "postCreateCommand": "curl -fsSL https://nousresearch.com | bash -s -- --non-interactive",
+  "forwardPorts":,
+  "remoteEnv": {
+    "HERMES_HOME": "/workspaces/.hermes"
+  }
+}
